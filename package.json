@@ -1,17 +1,25 @@
 {
-  "name": "alurabank",
+  "name": "project",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "lite-server --baseDir=dist",
     "start": "concurrently \"npm run watch\" \"npm run server\""
   },
-  "author": "",
+  "author": "brendson",
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^6.0.0",
     "lite-server": "^2.6.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/br3nds0n/typescript-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/br3nds0n/typescript-project/issues"
+  },
+  "homepage": "https://github.com/br3nds0n/typescript-project#readme",
+  "description": ""
 }
